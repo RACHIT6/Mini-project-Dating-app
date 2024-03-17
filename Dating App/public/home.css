@@ -1,0 +1,680 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Catamaran", Sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    z-index: 5;
+    animation-name: header;
+    animation-duration: 2s;
+}
+.header img{
+    width: 210px;
+    height: auto;
+    margin-top: 52px;
+    margin-left: 150px;
+}
+.header ol{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.header ol li{
+    list-style-type: none;
+    margin: 20px;
+}
+.header ol li a{
+    text-decoration: none;    
+    color: black;
+}
+@keyframes header{
+    from{
+        margin-top: -100px;
+    }
+    to{
+        margin-top: 0px;
+    }
+}
+
+.login{
+    background-color: red;
+    width: 146px;
+    height: 46px;
+    border-radius: 50px;
+    margin-top: 55px;
+    margin-left: 280px;
+    position: relative;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: white;
+    border: 1px solid red;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 18px;
+    width: 145px;
+    height: 45px;
+    border-radius: 50px;
+    padding: 12.5px;
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+.login a:hover{
+    color: red;
+}
+
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+.dashboard-content{
+    margin-top: 200px;
+    margin-left: 210px;
+    height: 350px;
+    animation-name: example;
+    animation-duration: 1.8s;
+}
+@keyframes example {
+    from{
+        margin-left: 0px;
+        margin-top: 290px;
+    }
+    to{
+        margin-top: 200px;
+        margin-left: 210px;
+    }
+}
+
+.miniphoto{
+    width: 80px;
+    position: absolute;
+}
+.circlephoto{
+    width: 560px;
+    height: auto;
+    position: absolute;
+}
+.mainphoto{
+    margin-top: 60px;
+    margin-left: 110px;
+    position: relative;
+    animation-name: mainphoto;
+    animation-duration: 2s;
+}
+.phonephoto{
+    width: 540px;
+    height: auto;
+    position: absolute;
+}
+@keyframes mainphoto {
+    from{
+        margin-top: 160px;
+        margin-left: 450px;
+    }
+    to{
+        margin-top: 60px;
+        margin-left: 110px;
+    }
+}
+
+
+
+.aboutus{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.secondphoto{
+    margin-left: 240px;
+}
+.secondphoto img{
+    width: 520px;
+    border-radius: 12px;
+}
+.about-content{
+    width: 620px;
+    height: 380px;
+    position: absolute;
+    top: 65px;
+    left: 670px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px;
+}
+.readmore{
+    background-color: red;
+    border-radius: 50px;
+    width: 140px;
+    height: 42px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.readmore:hover{
+    background-color: white;
+    border: 2px solid red;
+}
+.readmore a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 18px;
+    font-size: 20px;
+    width: 120px;
+    height: 32px;
+    border-radius: 50px;
+}
+.readmore a:hover{
+    color: red;
+}
+
+.extra-info{
+    position: absolute;
+    top: 520px;
+    left: 840px;
+    display: flex;
+    flex-direction: row;
+}
+.extra-info div img{
+    width: 100px;
+}
+.extra-info div{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.patnership{
+    display: flex;
+    flex-direction: row;
+}
+.patnership div{
+    box-sizing: border-box;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+.patnership div img{
+    width: 120px;
+    filter: grayscale(1);
+}
+.patnership div img:hover{
+    filter: grayscale(0);
+}
+
+
+.data{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+.data-photo{
+    position: relative;
+}
+.data-photo div{
+    position: absolute;
+    top: 150px;
+    left: 320px;
+}
+.data-photo div img{
+    width: 510px;
+}
+.data-details{
+    margin-top: 190px;
+    margin-left: 740px;
+    height: 500px;
+}
+.data-details h3{
+    margin-top: 30px;
+}
+
+
+.services{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    height: 800px;
+}
+.services div{
+    margin: 20px;
+}
+.learn-more{
+    background-color: red;
+    width: 120px;
+    height: 52px;
+    border-radius: 50px;
+    position: relative;
+}
+.learn-more:hover{
+    background-color: white;
+    border: 1px solid red;
+}
+.learn-more a{
+    width: 120px;
+    height: 44px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-left: 14px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.learn-more a:hover{
+    color: red;
+}
+.boxes{
+    width: 400px;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 40px;
+}
+.boxes img{
+    width: 60px;
+}
+.boxes h3{
+    margin-left: 20px;
+}
+.boxes p{
+    margin-left: 20px;
+    color: grey;
+}
+
+
+
+
+#subscribe-pl{
+    height: 900px;
+    width: 100%;
+    background-image: url("https://c1.wallpaperflare.com/preview/190/67/674/affection-afterglow-backlit-blur.jpg");
+    background-size:cover;
+    position: relative;
+    margin-top: 100px;
+}
+ #subscribe-pl  .content-box h4{
+    padding-left: 45%;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+#subscribe-pl hr{
+    width: 50px;
+    bottom: 100px;
+    border: 2px solid red;
+    margin-top: -10px;
+    margin-left: 47.2%;
+}
+ #subscribe-pl  .content-box h1{
+    padding-left: 33%;
+    font-size: 2rem;
+    padding-top: 10px;
+    color: white;
+} 
+#subscribe-pl  .content-box p{
+    padding-left: 38%;
+    padding-top: 10px;
+    margin-bottom: 90px;
+    color: white;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2-i{
+    width: 22%;
+    height: 540px;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 50px;
+}
+.box2-i hr{
+    width: 50%;
+}
+.box2-i h3{
+    color: red;
+}
+.box2-i h2{
+    color: black;
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+.box2-i .fa{
+    font-size: 2rem;
+}
+.box2-i button{
+    font-size: 16px;
+    padding: 10px 15px 10px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.box2-i button:hover{
+    color: white;
+    background-color: black;
+}
+.box2-ii{
+    width: 22%;
+    height: 540px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+}
+.box2-ii hr{
+    width: 220px;
+}
+.box2-ii h3{
+    color: white;
+}
+.box2-ii h2{
+    color: white;
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+.box2-ii span{
+    color: white;
+}
+.box2-ii h4{
+    color: white;
+}
+.box2-ii .fa{
+    font-size: 2rem;
+}
+.box2-ii button{
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    color: red;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.box2-ii button:hover{
+    color: white;
+    background-color: black;
+}
+.box2-iii{
+    width: 22%;
+    height: 540px;
+    margin-left: 100px;
+    /* padding-left: 100px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+.box2-iii hr{
+    width: 220px;
+}
+.box2-iii h3{
+    color: red;
+}
+.box2-iii h2{
+    color: black;
+    font-weight: 1000;
+    font-size: 2.5rem;
+    /* line-height: 50px; */
+}
+.box2-iii .fa{
+    font-size: 2rem;
+}
+.box2-iii button{
+    padding: 10px 15px 10px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -20px;
+}
+.box2-iii button:hover{
+    color: white;
+    background-color: black;
+}
+.news-box2-i{
+    position: relative;
+}
+.news-box2-ii{
+    position: relative;
+}
+#news{
+    height: 800px;
+    width: 1260px;
+}
+#news .news-box h4{
+    padding-left: 52%;
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+#news .news-box h1{
+    /* padding-top: 50px; */
+    /* margin-top: -17px; */
+    padding-left: 585px;
+    font-size: 2.3rem;
+    margin-top: 20px;
+} 
+.bottom-left1 {
+    position: absolute;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+}
+.bottom-left2 {
+    position: absolute;
+    top: 0px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+}
+.bottom-left1 a{
+    text-decoration: none;
+    color: red;
+    font-weight: 400;
+}
+.bottom-left2 a{
+    text-decoration: none;
+    color: red;
+    font-weight: 400;
+}
+.news-box1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+#news .news-box2-i img{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    /* margin-left: 60px; */
+}
+#news .news-box2-ii img{
+    height: 300px;
+    width: 500px;
+}
+#news hr{
+    width: 30px;
+    bottom: 100px;
+    border-width: 2px;
+    margin-top: -13px;
+    border-color: red;  
+}
+.r-m{
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color: red;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.r-m:hover{
+    color: white;
+    background-color: black;
+}
+.content1 a{
+    text-decoration: none;
+    color: black; 
+}
+#update-box{
+    height: 400px;
+    width: 1060px;
+    margin-top: -50px;
+    margin-left: 250px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEeRlHzRiNCR8vvI490rGn5ByT17tG2oEnCQ&usqp=CAU");
+    background-size:cover;
+    position: relative;
+}
+.update-content-box h4{
+    padding-top: 20px;
+    padding-left: 440px;
+    color: black;
+    padding-top: 50px;
+}
+.update-content-box h1{
+    /* padding-top: 50px; */
+    padding-left: 200px;
+    font-size: 2.5rem;
+    color: black;
+    padding-top: 10px;
+} 
+.update-content-box p{
+    padding-left: 330px;
+    color: black;
+}
+.update-content-box input[type=text] {
+    /* float: right; */
+    padding: 10px;
+    padding-right: 170px;
+    border: 1px solid black;
+    /* margin-top: 8px; */
+    margin-right: 35px;
+    font-size: 17px;
+    align-items: center;
+    border-radius: 15px 0px 0px 15px;
+}
+.update-content-box button{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    margin-left: 250px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.update-content-box button:hover{
+    color: white;
+    background-color: black;
+}
+.update-content-box hr{
+    width: 70px;
+    bottom: 100px;
+    border-width: 2px;
+    margin-top: -13px;
+    border-color: rgb(194, 32, 32); 
+    margin-left: 480px; 
+}
+
+#footer{
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    background-image: url("https://www.imageshine.in/uploads/gallery/Pink-Color-Background-images-free-download.jpg");
+}
+#footer .footer-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    margin-left: 80px;
+}
+.footer-box-i h1{
+    color: white;
+    margin-left: -60px;
+    margin-top: -15px;
+}
+.footer-box-i p{
+    color: black;
+    margin-left: -60px;
+}
+.footer-box-ii h1{
+    color: white;
+    font-size: 1.7rem;
+    margin-left: -60px;
+}
+.footer-box-ii a{
+    color: black;
+    margin-top: -15px;
+    margin-left: -60px;
+    text-decoration: none;
+}
+.footer-box-ii a:hover{
+    color: yellow;
+}
+.footer-box-iii a{
+    color: black;
+    margin-top: -15px;
+    margin-left: -60px;
+    text-decoration: none;
+}
+.footer-box-iii a:hover{
+    color: yellow;
+}
+.footer-box-iii h1{
+    color: white;
+    font-size: 1.7rem;
+    margin-left: -60px;
+}
+.footer-box-iv p{
+    color: black;
+    margin-left: -60px;
+    margin-top: -15px;
+}
+.footer-box-iv h1{
+    color: white;
+    font-size: 1.7rem;
+    margin-left: -60px;
+}
+#footer hr{
+    border-color: white;
+    width: 80%;
+}
+.end-box1{
+    margin-left: 90px;
+    margin-top: -30px;
+}
+.end-box1 p{
+    font-size: 1rem;
+    color: white;
+    margin-left: 5%;
+}
