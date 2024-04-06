@@ -35,6 +35,9 @@ html{
     text-decoration: none;    
     color: black;
 }
+.header ol li a:hover{
+    color: red;
+}
 @keyframes header{
     from{
         margin-top: -100px;
@@ -133,7 +136,7 @@ html{
 
 
 .aboutus{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     position: relative;
