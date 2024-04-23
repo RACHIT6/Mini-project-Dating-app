@@ -1,0 +1,66 @@
+.signup body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffcccc;
+    overflow: hidden;
+}
+
+.signup .heart {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    top: 50%;
+    left: 50%;
+    animation: bounceHeart 1s ease infinite alternate;
+}
+
+@keyframes bounceHeart {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+}
+
+.signup .signup-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signup .signup-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.signup .signup-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signup .signup-form input[type="submit"] {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup .signup-form input[type="submit"]:hover {
+    background-color: #ff4f4f;
+}

@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Catamaran", Sans-serif;
+}
+.purchasemembership html{
+    scroll-behavior: smooth;
+    background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stephan-seeber-1261728.jpg&fm=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.purchasemembership .mainpage{
+    display: flex;
+    flex-direction: row;
+}
+.purchasemembership .section-1{
+    width: 20%;
+    height: 340px;
+    background-color: white;
+    margin: 40px;
+    margin-left: 80px;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 45px red; */
+    /* -webkit-box-shadow: 2px 4px 14px red; */
+}
+.purchasemembership .section-1 h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.purchasemembership .links{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+}
+.purchasemembership .elements{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.purchasemembership .elements a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.purchasemembership .elements a:hover{
+    color: red;
+}
+.purchasemembership .elements img{
+    width: 24px;
+}
+
+
+.purchasemembership .section-2{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    margin: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    /* box-shadow: 5px 5px 45px red; */
+    /* -webkit-box-shadow: 2px 4px 14px red;  */
+}
+.purchasemembership .section-2 h1{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.purchasemembership .purchase{
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+    width: 80px;
+    height: 28px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 8px;
+}
+.purchasemembership .purchase:hover{
+    background-color: white;
+    color: red;
+}
+.purchasemembership .id-name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.purchasemembership .id-name div img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.purchasemembership .name-id{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.purchasemembership .name-id h3{
+    font-size: 24px;
+    margin-top: 4px;
+}
+.purchasemembership .name-id a{
+    font-size: 14px;
+    text-decoration: none;
+    color: purple;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.purchasemembership .form div h3{
+    margin: 10px;
+}
+.purchasemembership .form div div{
+    margin: 20px;
+}
+.purchasemembership label{
+    color: grey;
+}
+.purchasemembership input{
+    height: 18px;
+}
+
+.purchasemembership .box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.purchasemembership input{
+    margin-top: 5px;
+}
+
+
+.purchasemembership button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-size: 16.8px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.purchasemembership button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+.purchasemembership #subscribe-pl{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.purchasemembership #subscribe-pl hr{
+    width: 50px;
+    bottom: 100px;
+    border: 2px solid red;
+    margin-top: -10px;
+    margin-left: 47.2%;
+}
+.purchasemembership #subscribe-pl  .content-box p{
+    padding-left: 38%;
+    padding-top: 10px;
+    margin-bottom: 90px;
+    color: white;
+}
+.purchasemembership .box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.purchasemembership .box2-i{
+    width: 22%;
+    height: 380px;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 50px;
+    border: 1px solid red;
+}
+.purchasemembership .box2-i hr{
+    width: 50%;
+}
+.purchasemembership .box2-i h3{
+    color: red;
+    margin-top: 20px;
+}
+.purchasemembership .box2-i h2{
+    color: black;
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+.purchasemembership .box2-i .fa{
+    font-size: 2rem;
+}
+.purchasemembership .box2-i button{
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: -0px;
+}
+.purchasemembership .box2-i button:hover{
+    color: red;
+    background-color: white;
+}
+.purchasemembership .box2-ii{
+    width: 22%;
+    height: 380px;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+}
+.purchasemembership .box2-ii hr{
+    width: 220px;
+}
+.purchasemembership .box2-ii h3{
+    color: white;
+    margin-top: 20px;
+}
+.purchasemembership .box2-ii h2{
+    color: white;
+    font-weight: 1000;
+    font-size: 2.5rem;
+}
+.purchasemembership .box2-ii span{
+    color: white;
+}
+.purchasemembership .box2-ii h4{
+    color: white;
+}
+.purchasemembership .box2-ii .fa{
+    font-size: 2rem;
+}
+.purchasemembership .box2-ii button{
+    background-color: white;
+    color: red;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 140px;
+    height: 40px;
+    margin-top: -200px;
+    margin-left: -0px;
+}
+.purchasemembership .box2-ii button:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid white;
+}
+.purchasemembership .box2-iii{
+    width: 22%;
+    height: 380px;
+    margin-left: 80px;
+    /* padding-left: 100px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid red;
+    position: relative;
+}
+.purchasemembership .box2-iii hr{
+    width: 220px;
+}
+.purchasemembership .box2-iii h3{
+    color: red;
+    margin-top: 20px;
+}
+.purchasemembership .box2-iii h2{
+    color: black;
+    font-weight: 1000;
+    font-size: 2.5rem;
+    /* line-height: 50px; */
+}
+.purchasemembership .box2-iii .fa{
+    font-size: 2rem;
+}
+.purchasemembership .box2-iii button{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    bottom: 16px;
+    left: 0px;
+}
+.purchasemembership .box2-iii button:hover{
+    color: red;
+    background-color: white;
+}

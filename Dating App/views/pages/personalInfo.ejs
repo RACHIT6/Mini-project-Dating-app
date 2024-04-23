@@ -1,0 +1,116 @@
+<%- layout('/layout/template.ejs') %>
+<div class="personalinfo">
+
+    <div class="mainpage">
+        
+        <div class="section-1">
+            <h3>Account</h3>
+            <hr style="width: 80%; margin-left: 20px; margin-top: 20px;">
+            <div class="links">
+                <div class="elements">
+                    <div><img src="./images/Home.png" alt=""></div>
+                    <a href="/home">Home</a>
+                </div>
+                <div style="position: relative;" class="elements">
+                    <div><img src="./images/9977091-removebg-preview.png" alt=""></div>
+                    <a href="/personalInfo">Personal Info</a>
+                    <img style="width: 10px; height: 10px; -webkit-transform: scaleX(-1); transform: scaleX(-1); position: absolute; top: 6px; right: 10px;" src="../images/1200px-Red_Arrow_Left.svg-removebg-preview.png" alt="">
+                </div>
+                <div class="elements">
+                    <div><img src="./images/Password.png" alt=""></div>
+                    <a href="/personalInfo/password">Password Info</a>
+                </div>
+                <div class="elements">
+                    <div><img src="./images/Memebership (1).png" alt=""></div>
+                    <a href="/personalInfo/memberShip">Memebership Details</a>
+                </div>
+                <div class="elements">
+                    <div><img src="./images/Logout.png" alt=""></div>
+                    <a href="/home">LogOut</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-2">
+            <h1>Personal Information</h1>
+            <hr style="width: 90%; margin-left: 20px; margin-top: 20px;">
+
+            <div class="id-name">
+                <div>
+                    <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="">
+                </div>
+                <div class="name-id">
+                    <h3>Tony Stark</h3>
+                    <a href="">change photo</a>
+                </div>
+            </div>
+
+            <hr style="width: 90%; margin-left: 22px; margin-top: 20px; color: grey; opacity: 0.5;">
+
+            <a href="./edit/edit.html" class="edit">Edit</a>
+
+            <div>
+                <form class="form" action="">
+                    <div style="margin-left: 35px; margin-top: 20px;">
+                        <h3>Account Information</h3>
+                        <div style="display: flex; flex-direction: row; margin-top: 20px; margin-left: 0px;">
+                            <div class="box" style="margin-left: 12px; margin-top: 0px;">
+                                <label for="firstName">First Name</label>
+                                <input type="text" name="firstName" id="firstName" value="Tony" disabled>
+                            </div>
+                            <div class="box" style="margin-top: 0px; margin-left: 250px;">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" name="lastName" id="lastName" value="Stark" disabled>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display: flex; flex-direction: row; margin-top: -20px; margin-left: -20px;">
+                                <div class="box" style="margin-left: 12px; margin-top: 0px;">
+                                    <label for="gender">Gender</label>
+                                    <input type="text" name="gender" id="gender" value="Male" disabled>
+                                </div>
+                                <div class="box" style="margin-top: 0px; margin-left: 250px;">
+                                    <label for="age">Age</label>
+                                    <input type="number" name="age" id="age" value="21" disabled>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <hr style="width: 90%; margin-left: -10px; margin-top: 10px; color: grey; opacity: 0.5;">
+
+                    <div style="margin-left: 10px; margin-top: 20px;">
+                        <h3 style="margin-left: -5px;">Physical Address</h3>
+                        <div style=" margin-top: 20px; margin-left: -10px;">
+                            <div style="display: flex; flex-direction: row;  margin: 0px;">
+                                <div class="box" style="margin-left: 10px; margin-top: 0px;">
+                                    <label for="countryName">Country</label>
+                                    <input type="text" name="countryName" id="countryName" value="India" disabled>
+                                </div>
+                                <div class="box" style="margin-top: 0px; margin-left: 250px;">
+                                    <label for="cityName">State</label>
+                                    <input type="text" name="cityName" id="cityName" value="Uttar Pradesh" disabled>
+                                </div>
+                            </div>
+                            <div style="display: flex; flex-direction: row; margin-left: 0px; margin-top: -10px;">
+                                <div class="box" style="margin-top: 0px; margin-left: 10px;">
+                                    <label for="stateName">City</label>
+                                    <input type="text" name="stateName" id="stateName" value="Mathura" disabled>
+                                </div>
+                                <div class="box" style="margin-top: 2px; margin-left: 250px;">
+                                    <label for="address">Address</label>
+                                    <input type="text" name="address" id="address" value="Krsihna Nagar" disabled>
+                                </div>
+                            </div>
+                            <div class="box" style="margin-left: 10px; margin-top: -25px;">
+                                <label for="pincode">PinCode</label>
+                                <input type="number" name="pincode" id="pincode" value="123456" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    </div>

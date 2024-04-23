@@ -1,0 +1,27 @@
+<header class="header">
+  <div class="logo">
+    <h1 style="color: red; margin-top: 60px; margin-left: 100px">
+      CupidConnect
+    </h1>
+  </div>
+  <ol>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about-us">About Us</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#footer">Contact</a></li>
+  </ol>
+  <% if (user) { %>
+  <div class="profile">
+    <a href="/personalInfo"
+      ><img
+        src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+        alt=""
+    /></a>
+    <h3><%= user.username %></h3>
+  </div>
+  <% } else { %>
+  <div class="login">
+    <a href="/login">Login / SignUp</a>
+  </div>
+  <% } %>
+</header>

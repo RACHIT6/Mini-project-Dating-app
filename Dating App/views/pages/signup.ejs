@@ -1,0 +1,43 @@
+<%- layout('/layout/template.ejs') %>
+
+<div class="signup">
+
+    <div class="heart"></div>
+    
+    <div class="signup-form">
+        <h2>Sign Up for Love Dating</h2>
+        <form action="/signup" method="POST" id="signupForm" onsubmit="return validateForm()">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        
+        <label for="username">Unique Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <input type="submit" value="Sign Up">
+    </form>
+</div>
+
+
+    </div>

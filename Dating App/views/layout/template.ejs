@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="home2.css" />
+    <link rel="stylesheet" href="personalInfo.css" />
+    <link rel="stylesheet" href="membership.css" />
+    <link rel="stylesheet" href="password.css" />
+    <link rel="stylesheet" href="purchaseMembership.css" />
+    <link rel="stylesheet" href="edit.css" />
+    <link rel="stylesheet" href="editPassword.css" />
+    
+    <title>Datera</title>
+  </head>
+  <body>
+    <main><%- body -%></main>
+
+    <script src="https://kit.fontawesome.com/48bcbf2c30.js"></script>
+    <script>
+      function validateForm() {
+        var firstName = document.getElementById("firstName").value;
+        var lastName = document.getElementById("lastName").value;
+        var age = document.getElementById("age").value;
+        var gender = document.getElementById("gender").value;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirmPassword").value;
+        var username = document.getElementById("username").value;
+
+        if (
+          firstName === "" ||
+          lastName === "" ||
+          age === "" ||
+          gender === "" ||
+          email === "" ||
+          password === "" ||
+          confirmPassword === "" ||
+          username === ""
+        ) {
+          alert("All fields must be filled out");
+          return false;
+        }
+
+        if (password !== confirmPassword) {
+          alert("Passwords do not match");
+          return false;
+        }
+
+        return true;
+      }
+    </script>
+  </body>
+</html>

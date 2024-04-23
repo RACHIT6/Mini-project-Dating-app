@@ -1,0 +1,187 @@
+.login {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(135deg, #ff6b6b, #ffe66d, #8be9fd);
+  background-size: 600% 600%;
+  animation: gradientBG 10s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-right: 15vw;
+}
+
+.login form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login h2 {
+  text-align: center;
+  color: #333;
+}
+
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login input[type="submit"] {
+  width: 100%;
+  background-color: #ff6b6b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #ff4f4f;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.login .heart {
+  width: 100px;
+  height: 90px;
+  position: relative;
+  animation: heartbeat 1s ease infinite;
+  right: 18vw;
+  bottom: 20vw;
+}
+
+.login .heart:before,
+.login .heart:after {
+  content: "";
+  width: 100px;
+  height: 140px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  position: absolute;
+  top: 0;
+}
+
+.login .heart:before {
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.login .heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.8);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(0.8);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+.login .heart1 {
+  width: 100px;
+  height: 90px;
+  position: relative;
+  animation: heartbeat 1s ease infinite;
+  left: 58vw;
+  top: 18vw;
+}
+
+.login .heart1:before,
+.login .heart1:after {
+  content: "";
+  width: 100px;
+  height: 140px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  position: absolute;
+  top: 0;
+}
+
+.login .heart1:before {
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.login .heart1:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.8);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(0.8);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+.login a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Catamaran", Sans-serif;
+}
+.personalinfo html{
+    scroll-behavior: smooth;
+    background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stephan-seeber-1261728.jpg&fm=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.personalinfo .mainpage{
+    display: flex;
+    flex-direction: row;
+}
+.personalinfo .section-1{
+    width: 20%;
+    height: 340px;
+    background-color: white;
+    margin: 40px;
+    margin-left: 80px;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 45px red; */
+    /* -webkit-box-shadow: 2px 4px 14px red; */
+}
+.personalinfo .section-1 h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.personalinfo .links{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+}
+.personalinfo .elements{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.personalinfo .elements a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.personalinfo .elements a:hover{
+    color: red;
+}
+.personalinfo .elements img{
+    width: 24px;
+}
+
+
+.personalinfo .section-2{
+    width: 80%;
+    height: 800px;
+    background-color: white;
+    margin: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    /* box-shadow: 5px 5px 45px red; */
+    /* -webkit-box-shadow: 2px 4px 14px red;  */
+}
+.personalinfo .section-2 h1{
+    font-size: 21px;
+    font-weight: 400;
+    margin: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.personalinfo .edit{
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    width: 45px;
+    height: 28px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 8px;
+}
+.personalinfo .edit:hover{
+    background-color: white;
+    color: red;
+}
+.personalinfo .id-name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.personalinfo .id-name div img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.personalinfo .name-id{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.personalinfo .name-id h3{
+    font-size: 24px;
+    margin-top: 4px;
+}
+.personalinfo .name-id a{
+    font-size: 14px;
+    text-decoration: none;
+    color: purple;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.personalinfo .form div h3{
+    margin: 10px;
+}
+.personalinfo .form div div{
+    margin: 20px;
+}
+.personalinfo label{
+    color: grey;
+}
+
+.personalinfo .box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.personalinfo input{
+    margin-top: 5px;
+}
+
+
+.personalinfo button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-size: 16.8px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.personalinfo button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+
+
